@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOSBoilerplate_Example' do
+  pod 'iOSBoilerplate', :path => '../'
+
+  target 'iOSBoilerplate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
