@@ -1,0 +1,22 @@
+{
+  "name": "iOSBoilerplate",
+  "version": "0.1.0",
+  "summary": "A short description of iOSBoilerplate.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/iOSBoilerplate",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Levi Bostian": "levi@curiosityio.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/iOSBoilerplate.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iOSBoilerplate/Classes/**/*"
+}

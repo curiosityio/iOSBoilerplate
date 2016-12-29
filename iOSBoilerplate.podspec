@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'iOSBoilerplate'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of iOSBoilerplate.'
+  s.summary          = 'The boring iOS stuff. Include this library and never write it again.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+The boring iOS stuff. Include this library and never write it again. This lib includes extensions and libraries you may find useful for dealing with permissions, NotificationCenter, NSUserDefaults.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/iOSBoilerplate'
+  s.homepage         = 'https://github.com/curiosityio/iOSBoilerplate'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Levi Bostian' => 'levi@curiosityio.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/iOSBoilerplate.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/curiosityio/iOSBoilerplate.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

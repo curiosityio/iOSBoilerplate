@@ -1,0 +1,16 @@
+PODS:
+  - iOSBoilerplate (0.1.0)
+
+DEPENDENCIES:
+  - iOSBoilerplate (from `../`)
+
+EXTERNAL SOURCES:
+  iOSBoilerplate:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iOSBoilerplate: 95d053a9ecf15fdcc71aa85f67e629bb35f31395
+
+PODFILE CHECKSUM: 71e01c036b2a7c8979dbaeda60cdb22f44e35b09
+
+COCOAPODS: 1.1.1
