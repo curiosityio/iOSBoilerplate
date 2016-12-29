@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-class UrlUtil {
+public class UrlUtil {
     
-    class func openWebpage(_ url: String) {
+    public class func openWebpage(_ url: String) {
         if let openUrl = URL(string: url) {
             UIApplication.shared.openURL(openUrl)
         }

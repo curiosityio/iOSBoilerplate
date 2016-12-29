@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOSBoilerplate'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'The boring iOS stuff. Include this library and never write it again.'
 
 # This description is used to generate tags and improve search results.

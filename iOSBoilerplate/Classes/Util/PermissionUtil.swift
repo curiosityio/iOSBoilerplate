@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-class PermissionUtil {
+public class PermissionUtil {
     
-    static func areAppNotificationsEnabled() -> Bool {
+    public static func areAppNotificationsEnabled() -> Bool {
         let notificationType = UIApplication.shared.currentUserNotificationSettings!.types
         
         return notificationType != UIUserNotificationType()

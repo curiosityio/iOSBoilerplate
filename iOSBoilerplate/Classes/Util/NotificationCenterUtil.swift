@@ -8,28 +8,28 @@
 
 import Foundation
 
-class NotificationCenterUtil {
+public class NotificationCenterUtil {
     
     fileprivate static let userLoggedInNotification = "userLoggedInNotification"
     fileprivate static let userUnauthorizedNotification = "userUnauthorizedNotification"
     
-    class func postUserLoggedInNotification() {
+    public class func postUserLoggedInNotification() {
         postNotification(userLoggedInNotification)
     }
     
-    class func observeUserLoggedInNotification(_ observer: AnyObject, selector: Selector) {
+    public class func observeUserLoggedInNotification(_ observer: AnyObject, selector: Selector) {
         observeNotification(observer, selector: selector, name: userLoggedInNotification)
     }
     
-    class func postUserUnauthorized(_ shouldShowLoggedOutMessage: Bool, errorMessage: String? = nil) {
+    public class func postUserUnauthorized(_ shouldShowLoggedOutMessage: Bool, errorMessage: String? = nil) {
         postNotification(userUnauthorizedNotification, userInfo: ["shouldShowLoggedOutMessage": shouldShowLoggedOutMessage, "errorMessage": errorMessage])
     }
     
-    class func observeUserUnauthorized(_ observer: AnyObject, selector: Selector) {
+    public class func observeUserUnauthorized(_ observer: AnyObject, selector: Selector) {
         observeNotification(observer, selector: selector, name: userUnauthorizedNotification)
     }
     
-    class func removeObserver(_ observer: AnyObject) {
+    public class func removeObserver(_ observer: AnyObject) {
         NotificationCenter.default.removeObserver(observer)
     }
     

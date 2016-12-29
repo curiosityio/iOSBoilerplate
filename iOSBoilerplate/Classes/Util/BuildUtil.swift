@@ -8,9 +8,9 @@
 
 import Foundation
 
-class BuildUtil {
+public class BuildUtil {
     
-    class func getVersionName() -> String {
+    public class func getVersionName() -> String {
         return Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String // swiftlint:disable:this force_cast
     }
     

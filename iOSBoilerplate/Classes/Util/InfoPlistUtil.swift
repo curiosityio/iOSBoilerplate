@@ -8,9 +8,9 @@
 
 import Foundation
 
-class InfoPlistUtil {
+public class InfoPlistUtil {
     
-    class func getValueFromKey(_ key: String) -> AnyObject? {
+    public class func getValueFromKey(_ key: String) -> AnyObject? {
         let mainBundle = Bundle.main
         
         return mainBundle.object(forInfoDictionaryKey: key) as AnyObject?

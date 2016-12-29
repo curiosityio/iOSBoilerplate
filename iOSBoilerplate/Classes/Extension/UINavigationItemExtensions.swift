@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-extension UINavigationItem {
+public extension UINavigationItem {
     
-    func navigationBarTitleButton(titleText: String, target: Any, selector: Selector, navigationController: UINavigationController?) {
+    public func navigationBarTitleButton(titleText: String, target: Any, selector: Selector, navigationController: UINavigationController?) {
         if let navigationController = navigationController {
             let button =  UIButton(type: .custom)
             button.frame = navigationController.navigationBar.topItem!.titleView!.frame

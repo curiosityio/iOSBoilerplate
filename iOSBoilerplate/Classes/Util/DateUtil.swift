@@ -8,22 +8,22 @@
 
 import Foundation
 
-class DateUtil: NSObject {
+public class DateUtil: NSObject {
     
-    class func getSecondsFromTimeInterval(_ timeInterval: TimeInterval) -> Int {
+    public class func getSecondsFromTimeInterval(_ timeInterval: TimeInterval) -> Int {
         let timeIntervalDate = Date(timeIntervalSince1970: timeInterval / 1000)
         
         return Int(Date().timeIntervalSince(timeIntervalDate))
     }
     
-    class func getStringFromDate(_ date: Date) -> String {
+    public class func getStringFromDate(_ date: Date) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "MM-dd-yyyy"
         
         return dateFormatter.string(from: date)
     }
     
-    class func getDateFromDateString(_ dateString: String?) -> Date? {
+    public class func getDateFromDateString(_ dateString: String?) -> Date? {
         let dateFormatter: DateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd"
         
@@ -34,7 +34,7 @@ class DateUtil: NSObject {
         }
     }
     
-    class func getDateFromTimeString(_ dateString: String?) -> Date? {
+    public class func getDateFromTimeString(_ dateString: String?) -> Date? {
         let dateFormatter: DateFormatter = DateFormatter()
         dateFormatter.dateFormat = "HH:mm:ss"
         

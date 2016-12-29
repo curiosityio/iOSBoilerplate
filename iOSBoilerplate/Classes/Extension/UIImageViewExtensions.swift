@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-extension UIImageView {
+public extension UIImageView {
     
-    func circularImage() {
+    public func circularImage() {
         layer.borderWidth = 0
         layer.masksToBounds = false
         layer.borderColor = UIColor.black.cgColor

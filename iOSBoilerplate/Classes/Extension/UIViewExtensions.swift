@@ -9,17 +9,17 @@
 import Foundation
 import UIKit
 
-extension UIView {
+public extension UIView {
     
     // you cannot create actions with UIViews. Therefore, use this gesture recognizer.
-    func addTapGesture(_ target: AnyObject, action: Selector) {
+    public func addTapGesture(_ target: AnyObject, action: Selector) {
         let tap = UITapGestureRecognizer(target: target, action: action)
         tap.numberOfTapsRequired = 1
         addGestureRecognizer(tap)
         isUserInteractionEnabled = true
     }
     
-    func collapse() {
+    public func collapse() {
         var newFrame = self.frame
         
         newFrame.size.width = 0
@@ -28,7 +28,7 @@ extension UIView {
         self.frame = newFrame
     }
     
-    @IBInspectable var borderColor: UIColor? {
+    @IBInspectable public var borderColor: UIColor? {
         set {
             layer.borderColor = newValue!.cgColor
         }
@@ -41,7 +41,7 @@ extension UIView {
         }
     }
     
-    @IBInspectable var borderWidth: CGFloat {
+    @IBInspectable public var borderWidth: CGFloat {
         set {
             layer.borderWidth = newValue
         }
@@ -50,7 +50,7 @@ extension UIView {
         }
     }
     
-    @IBInspectable var cornerRadius: CGFloat {
+    @IBInspectable public var cornerRadius: CGFloat {
         set {
             layer.cornerRadius = newValue
             clipsToBounds = newValue > 0
@@ -60,7 +60,7 @@ extension UIView {
         }
     }
     
-    func goAway() {
+    public func goAway() {
         // set the width constraint to 0
         let widthConstraint = NSLayoutConstraint(item: self, attribute: NSLayoutAttribute.width, relatedBy: NSLayoutRelation.equal, toItem: nil, attribute: NSLayoutAttribute.notAnAttribute, multiplier: 1, constant: 0)
         superview!.addConstraint(widthConstraint)

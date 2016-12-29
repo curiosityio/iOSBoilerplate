@@ -8,9 +8,9 @@
 
 import Foundation
 
-class NumberUtil {
+public class NumberUtil {
     
-    class func getNumberShortform(_ number: Int) -> String {
+    public class func getNumberShortform(_ number: Int) -> String {
         if number > 1000000 {
             return String(format: "%dM", number / 1000000)
         } else if number > 1000 {
@@ -20,7 +20,7 @@ class NumberUtil {
         }
     }
     
-    class func toAlphabetic(_ alphabetIndex: Int) -> String {
+    public class func toAlphabetic(_ alphabetIndex: Int) -> String {
         return String(Array("ABCDEFGHIJKLMNOPQRSTUVWXYZ".characters)[alphabetIndex])
     }
     

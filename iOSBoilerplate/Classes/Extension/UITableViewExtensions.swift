@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-extension UITableView {
+public extension UITableView {
     
-    func dynamicCellHeight() {
+    public func dynamicCellHeight() {
         rowHeight = UITableViewAutomaticDimension
         estimatedRowHeight = 40.0
     }

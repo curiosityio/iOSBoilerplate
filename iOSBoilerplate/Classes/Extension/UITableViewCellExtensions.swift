@@ -9,9 +9,9 @@
 import Foundation
 import UIKit
 
-extension UITableViewCell {
+public extension UITableViewCell {
     
-    func fullWidthSeparator() {
+    public func fullWidthSeparator() {
         preservesSuperviewLayoutMargins = false
         separatorInset = UIEdgeInsets.zero
         layoutMargins = UIEdgeInsets.zero

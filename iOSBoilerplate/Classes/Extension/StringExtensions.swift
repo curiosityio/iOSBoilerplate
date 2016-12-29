@@ -8,9 +8,9 @@
 
 import Foundation
 
-extension String {
+public extension String {
     
-    func get(_ index: Int) -> String {
+    public func get(_ index: Int) -> String {
         return self.substring(to: self.index(startIndex, offsetBy: index))
     }
     

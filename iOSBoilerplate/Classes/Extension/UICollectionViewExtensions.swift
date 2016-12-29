@@ -9,14 +9,14 @@
 import Foundation
 import UIKit
 
-extension UICollectionViewCell {
+public extension UICollectionViewCell {
     
-    func addBorder(_ width: CGFloat, color: UIColor) {
+    public func addBorder(_ width: CGFloat, color: UIColor) {
         layer.borderWidth = width
         layer.borderColor = color.cgColor
     }
     
-    func removeBorder() {
+    public func removeBorder() {
         layer.borderWidth = 0
     }
     
