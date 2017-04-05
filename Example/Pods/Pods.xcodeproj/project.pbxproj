@@ -32,6 +32,9 @@
 		F7D3B92F1E1561FC00F2C3CB /* BuildUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3B92E1E1561FC00F2C3CB /* BuildUtil.swift */; };
 		F7D3B9331E15622E00F2C3CB /* PermissionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3B9321E15622E00F2C3CB /* PermissionUtil.swift */; };
 		F7D3B9351E15624300F2C3CB /* UrlUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D3B9341E15624300F2C3CB /* UrlUtil.swift */; };
+		F7EEDAD91E9474FA0084D97E /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EEDAD81E9474FA0084D97E /* NSObjectExtensions.swift */; };
+		F7EEDADB1E9475250084D97E /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EEDADA1E9475250084D97E /* DateExtensions.swift */; };
+		F7EEDADD1E9475BE0084D97E /* LogUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EEDADC1E9475BE0084D97E /* LogUtil.swift */; };
 		FE7AAD53FE8D90DC465B7873694F8466 /* Pods-iOSBoilerplate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A8081163A44817EAFCC48FA2E7A7B8 /* Pods-iOSBoilerplate_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +97,9 @@
 		F7D3B92E1E1561FC00F2C3CB /* BuildUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BuildUtil.swift; path = Util/BuildUtil.swift; sourceTree = "<group>"; };
 		F7D3B9321E15622E00F2C3CB /* PermissionUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PermissionUtil.swift; path = Util/PermissionUtil.swift; sourceTree = "<group>"; };
 		F7D3B9341E15624300F2C3CB /* UrlUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UrlUtil.swift; path = Util/UrlUtil.swift; sourceTree = "<group>"; };
+		F7EEDAD81E9474FA0084D97E /* NSObjectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSObjectExtensions.swift; path = Extension/NSObjectExtensions.swift; sourceTree = "<group>"; };
+		F7EEDADA1E9475250084D97E /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateExtensions.swift; path = Extension/DateExtensions.swift; sourceTree = "<group>"; };
+		F7EEDADC1E9475BE0084D97E /* LogUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogUtil.swift; path = Util/LogUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,6 +273,8 @@
 				F7D3B91D1E15609600F2C3CB /* UITableViewCellExtensions.swift */,
 				F7D3B91F1E1560A900F2C3CB /* UITableViewExtensions.swift */,
 				F7D3B9211E1560BE00F2C3CB /* UIViewExtensions.swift */,
+				F7EEDAD81E9474FA0084D97E /* NSObjectExtensions.swift */,
+				F7EEDADA1E9475250084D97E /* DateExtensions.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -282,6 +290,7 @@
 				F7D3B92E1E1561FC00F2C3CB /* BuildUtil.swift */,
 				F7D3B9321E15622E00F2C3CB /* PermissionUtil.swift */,
 				F7D3B9341E15624300F2C3CB /* UrlUtil.swift */,
+				F7EEDADC1E9475BE0084D97E /* LogUtil.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -418,13 +427,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7D3B9221E1560BE00F2C3CB /* UIViewExtensions.swift in Sources */,
+				F7EEDADB1E9475250084D97E /* DateExtensions.swift in Sources */,
 				F7D3B9251E15613E00F2C3CB /* DateUtil.swift in Sources */,
 				F7D3B91C1E15608500F2C3CB /* UINavigationItemExtensions.swift in Sources */,
 				F7D3B91A1E15606F00F2C3CB /* UIImageViewExtensions.swift in Sources */,
 				F7D3B9331E15622E00F2C3CB /* PermissionUtil.swift in Sources */,
 				F7D3B91E1E15609600F2C3CB /* UITableViewCellExtensions.swift in Sources */,
 				F7D3B9161E15604200F2C3CB /* UICollectionViewExtensions.swift in Sources */,
+				F7EEDAD91E9474FA0084D97E /* NSObjectExtensions.swift in Sources */,
 				F7D3B9291E15616900F2C3CB /* NSUserDefaultsUtil.swift in Sources */,
+				F7EEDADD1E9475BE0084D97E /* LogUtil.swift in Sources */,
 				F7D3B9141E15602900F2C3CB /* StringExtensions.swift in Sources */,
 				F7D3B92F1E1561FC00F2C3CB /* BuildUtil.swift in Sources */,
 				F7D3B9201E1560A900F2C3CB /* UITableViewExtensions.swift in Sources */,
