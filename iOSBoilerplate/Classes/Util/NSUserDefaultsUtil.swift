@@ -10,7 +10,7 @@ import Foundation
 
 public class NSUserDefaultsUtil {
     
-    public class func saveDouble(_ key: String, value: Int) {
+    public class func saveDouble(_ key: String, value: Double) {
         UserDefaults.standard.set(value, forKey: key)
     }
     

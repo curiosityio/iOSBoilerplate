@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Date {
+public extension Date {
     
     func getIntTimeInverval() -> Int {
         return Int(timeIntervalSince1970)
