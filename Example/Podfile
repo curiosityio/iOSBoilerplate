@@ -6,6 +6,7 @@ target 'iOSBoilerplate_Example' do
   target 'iOSBoilerplate_Tests' do
     inherit! :search_paths
 
-    
+    use_frameworks!
+    pod 'Nimble', '~> 6.0.0'    
   end
 end

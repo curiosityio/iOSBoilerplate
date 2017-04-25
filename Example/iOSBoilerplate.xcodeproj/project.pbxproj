@@ -12,9 +12,9 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		838BF50F2B6AA6940893897D /* Pods_iOSBoilerplate_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5375730444D1DCEDC6E44E82 /* Pods_iOSBoilerplate_Tests.framework */; };
-		AE2916EFAAACCF83817232DF /* Pods_iOSBoilerplate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA695AE4DC2CBD09E7B091 /* Pods_iOSBoilerplate_Example.framework */; };
+		E654AE2D1873AA2655335AEC /* Pods_iOSBoilerplate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA695AE4DC2CBD09E7B091 /* Pods_iOSBoilerplate_Example.framework */; };
+		F70B18841EAEBD610047D422 /* StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70B18831EAEBD610047D422 /* StringExtensionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +40,17 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* iOSBoilerplate_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSBoilerplate_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7A156194E118E6F93C28231B /* Pods-iOSBoilerplate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBoilerplate_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSBoilerplate_Example/Pods-iOSBoilerplate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8A471E830F633049C7E26662 /* Pods-iOSBoilerplate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBoilerplate_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSBoilerplate_Tests/Pods-iOSBoilerplate_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8DDF44B06AECE55580F92FDB /* iOSBoilerplate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOSBoilerplate.podspec; path = ../iOSBoilerplate.podspec; sourceTree = "<group>"; };
 		A9049AD80BFF5E93E0A8AE98 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B95C2B0A93635BF85EF050AA /* Pods-iOSBoilerplate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSBoilerplate_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSBoilerplate_Example/Pods-iOSBoilerplate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DADA695AE4DC2CBD09E7B091 /* Pods_iOSBoilerplate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSBoilerplate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70B187E1EAEBBF10047D422 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../../Library/Developer/Xcode/DerivedData/iOSBoilerplate-bqlwlqofuifzohadfpnmkhnxydqw/Build/Products/Debug-iphonesimulator/Nimble/Nimble.framework"; sourceTree = "<group>"; };
+		F70B18831EAEBD610047D422 /* StringExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensionTests.swift; path = Extension/StringExtensionTests.swift; sourceTree = "<group>"; };
+		F70B18861EAEC7450047D422 /* iOSBoilerplate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iOSBoilerplate.framework; path = "../../../Library/Developer/Xcode/DerivedData/iOSBoilerplate-bqlwlqofuifzohadfpnmkhnxydqw/Build/Products/Debug-iphonesimulator/iOSBoilerplate/iOSBoilerplate.framework"; sourceTree = "<group>"; };
+		F70B18871EAEC7450047D422 /* Pods_iOSBoilerplate_Example.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_iOSBoilerplate_Example.framework; path = "../../../Library/Developer/Xcode/DerivedData/iOSBoilerplate-bqlwlqofuifzohadfpnmkhnxydqw/Build/Products/Debug-iphonesimulator/Pods_iOSBoilerplate_Example.framework"; sourceTree = "<group>"; };
+		F70B18881EAEC7450047D422 /* Pods_iOSBoilerplate_Tests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_iOSBoilerplate_Tests.framework; path = "../../../Library/Developer/Xcode/DerivedData/iOSBoilerplate-bqlwlqofuifzohadfpnmkhnxydqw/Build/Products/Debug-iphonesimulator/Pods_iOSBoilerplate_Tests.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE2916EFAAACCF83817232DF /* Pods_iOSBoilerplate_Example.framework in Frameworks */,
+				E654AE2D1873AA2655335AEC /* Pods_iOSBoilerplate_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +130,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				F70B18801EAEBC330047D422 /* Extension */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -153,10 +157,22 @@
 		64E65DDD8D086B39252AA22C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F70B18861EAEC7450047D422 /* iOSBoilerplate.framework */,
+				F70B18871EAEC7450047D422 /* Pods_iOSBoilerplate_Example.framework */,
+				F70B18881EAEC7450047D422 /* Pods_iOSBoilerplate_Tests.framework */,
+				F70B187E1EAEBBF10047D422 /* Nimble.framework */,
 				DADA695AE4DC2CBD09E7B091 /* Pods_iOSBoilerplate_Example.framework */,
 				5375730444D1DCEDC6E44E82 /* Pods_iOSBoilerplate_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F70B18801EAEBC330047D422 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F70B18831EAEBD610047D422 /* StringExtensionTests.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,10 +231,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 552H65R858;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 552H65R858;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -370,7 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				F70B18841EAEBD610047D422 /* StringExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,10 +515,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 552H65R858;
 				INFOPLIST_FILE = iOSBoilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levibostian.demo.iOSBoilerplate-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -512,10 +531,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 552H65R858;
 				INFOPLIST_FILE = iOSBoilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levibostian.demo.iOSBoilerplate-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -525,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46B0187C81088509A327787C /* Pods-iOSBoilerplate_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 552H65R858;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -538,6 +559,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSBoilerplate_Example.app/iOSBoilerplate_Example";
 			};
 			name = Debug;
 		};
@@ -545,6 +567,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A471E830F633049C7E26662 /* Pods-iOSBoilerplate_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 552H65R858;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -554,6 +577,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSBoilerplate_Example.app/iOSBoilerplate_Example";
 			};
 			name = Release;
 		};

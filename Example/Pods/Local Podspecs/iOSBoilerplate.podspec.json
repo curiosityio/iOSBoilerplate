@@ -1,9 +1,9 @@
 {
   "name": "iOSBoilerplate",
-  "version": "0.1.0",
-  "summary": "A short description of iOSBoilerplate.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/iOSBoilerplate",
+  "version": "0.2.2",
+  "summary": "The boring iOS stuff. Include this library and never write it again.",
+  "description": "The boring iOS stuff. Include this library and never write it again. This lib includes extensions and libraries you may find useful for dealing with permissions, NotificationCenter, NSUserDefaults.",
+  "homepage": "https://github.com/curiosityio/iOSBoilerplate",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "Levi Bostian": "levi@curiosityio.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/iOSBoilerplate.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/curiosityio/iOSBoilerplate.git",
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "iOSBoilerplate/Classes/**/*"
+  "source_files": "iOSBoilerplate/Classes/**/*",
+  "frameworks": "UIKit"
 }

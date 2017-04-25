@@ -1,16 +1,19 @@
 PODS:
-  - iOSBoilerplate (0.1.0)
+  - iOSBoilerplate (0.2.2)
+  - Nimble (6.0.1)
 
 DEPENDENCIES:
   - iOSBoilerplate (from `../`)
+  - Nimble (~> 6.0.0)
 
 EXTERNAL SOURCES:
   iOSBoilerplate:
     :path: ../
 
 SPEC CHECKSUMS:
-  iOSBoilerplate: 95d053a9ecf15fdcc71aa85f67e629bb35f31395
+  iOSBoilerplate: 14a152ce6626e2b8a75b5f691753c7079578d6e9
+  Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
 
-PODFILE CHECKSUM: 71e01c036b2a7c8979dbaeda60cdb22f44e35b09
+PODFILE CHECKSUM: b0b53791d860104bfd85c1c1fcb88e8bbc5916b9
 
 COCOAPODS: 1.1.1
